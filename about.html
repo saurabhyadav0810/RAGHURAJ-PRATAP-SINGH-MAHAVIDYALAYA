@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghuraj Pratap Singh Mahavidyalaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .affiliation-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            gap: 15px;
+            overflow: hidden; /* Ensure marquee doesn't cause scroll */
+        }
+        .marquee-wrapper {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee-text {
+            display: inline-block;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            animation: floatLeftToRight 20s linear infinite;
+        }
+        @keyframes floatLeftToRight {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100vw); }
+        }
+        .btn-small {
+            padding: 5px 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <div class="logo-area">
+                <img src="logo.png" alt="College Logo" class="logo">
+                <div class="college-name">
+                    <h1>RAGHURAJ PRATAP SINGH MAHAVIDYALAYA</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#courses">Courses</a></li>
+                    <li><a href="placement.html">Placement</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section-padding" style="padding: 40px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="line"></div>
+                <div class="about-text" style="max-width: 900px; margin: 0 auto 40px auto; text-align: justify; line-height: 1.8;">
+                    <p>Our college is a place of learning and growth. We aim to provide quality education that helps students build a strong future. We focus on knowledge, skills, and good values.</p>
+                    <p>We offer different courses that help students understand both theory and practical work. Our teaching methods are simple and effective, so students can learn easily and confidently.</p>
+                    <p>Our teachers are experienced and supportive. The campus has good facilities like classrooms, labs, library, and sports areas. Along with studies, we encourage students to take part in cultural activities, sports, and social work.</p>
+                    <p style="margin-bottom: 15px;">Our goal is to help students become skilled professionals and responsible citizens who can contribute to society.</p>
+                </div>
+            </div>
+            
+            <!-- Vision & Mission -->
+            <div class="grid-2" style="margin-bottom: 20px;">
+               <div class="card">
+                    <i class="fas fa-eye icon"></i>
+                    <h3>Our Vision</h3>
+                    <p>By educating students problem-solving, leadership, and teamwork skills as well as the value of commitment to quality, ethical behaviour, and respect for others, Raghuraj Pratap Singh Mahavidyalaya hopes to change the way people think. Every student in our college should have access to a variety of opportunities for intellectual, interpersonal, and professional development. Learning and working at Raghuraj Pratap Singh Mahavidyalaya will develop quick, well-rounded minds that are well-equipped to prosper in our rapidly changing world.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bullseye icon"></i>
+                    <h3>Our Mission</h3>
+                    <p>At Raghuraj Pratap Singh Mahavidyalaya, we work to provide students with an education that develops them into leaders who can change the world. We seek to provide young, gifted Indian and international students with cutting-edge, top-notch technical, managerial, and medical education. By attracting and fostering the greatest people and giving them a platform where they can develop their core strengths and launch a career as top-tier professionals, we aim to lead the education sector in India. By constructing world-class infrastructure and facilities for sports, recreation, cultural enrichment, and personality development, we will give students a once-in-a-lifetime experience outside of the classroom.</p>
+                </div>
+            </div>
+            <!-- See More Why Choose Us -->
+            
+        </div>
+    </section>
+
+    <section class="section-padding" style="padding: 40px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="why-choose-us bg-light" style="padding: 30px; border-radius: 10px;">
+                <ol style="list-style-position: inside; font-size: 1.1rem; line-height: 2;">
+                    <li>The college is a center of excellence in higher education.</li>
+                    <li>We excel in all areas of teaching-learning, research, and consultancy.</li>
+                    <li>The College contributes to the creation of knowledge and the search for the meaning of life.</li>
+                    <li>They provide education that qualifies as international class for their students.</li>
+                    <li>The college inspires and challenges all segments of the college to raise the realm of good to great to greater through continuous assessment.</li>
+                </ol>
+            </div>
+
+            <!-- Affiliation -->
+            <div class="affiliation-container">
+                <div class="marquee-wrapper">
+                    <div class="marquee-text">Affiliated By: Maharaja Suhel Dev University, Azamgarh, UP</div>
+                </div>
+                <a href="https://msdsu.ac.in" target="_blank" class="btn btn-primary btn-small">Visit University Website</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Raghuraj Pratap Singh Mahavidyalaya. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/16kkAtsJha/"><i class="fab fa-facebook-f"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                <a href="https://www.instagram.com/rpsgoi.balkishunnagar?igsh=MTRqcnkwMTlxeG50cw%3D%3D"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
