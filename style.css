@@ -524,6 +524,98 @@ footer .container {
   .gallery-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+
+  /* Vision and Mission */
+  .grid-2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Our Courses and Our Facilities */
+  #courses .grid-3,
+  #facilities .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .course-card,
+  .facility-content {
+    padding: 20px;
+  }
+
+  .facility-img {
+    height: 190px;
+  }
+
+  /* Contact */
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-item {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .info-item i {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    min-width: 100%;
+  }
+
+  .contact-info p,
+  .contact-form input,
+  .contact-form textarea {
+    word-break: break-word;
+  }
+
+  .contact-form textarea {
+    min-height: 120px;
+  }
+
+  .contact-form .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .card,
+  .course-card,
+  .facility-content {
+    padding: 16px;
+  }
+
+  .facility-img {
+    height: 170px;
+  }
+
+  #contact.section-padding {
+    padding: 30px 0;
+  }
+
+  .info-item {
+    margin-bottom: 18px;
+  }
 }
 
 /* Gallery Styles */
